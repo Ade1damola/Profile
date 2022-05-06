@@ -38,7 +38,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20em;
+  padding: 300px;
   background-color: black;
   height: 90vh;
 }
