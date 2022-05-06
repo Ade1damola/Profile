@@ -11,7 +11,7 @@
       -ms-flex-pack: right;
           justify-content: right;
   background-color: #0000e1;
-  width: 100%;
+  width: 100vw;
 }
 
 #navbar ul li {
@@ -40,7 +40,7 @@
           justify-content: center;
   padding: 20em;
   background-color: black;
-  height: auto;
+  height: 90vh;
 }
 
 #welcome-section h1 {
