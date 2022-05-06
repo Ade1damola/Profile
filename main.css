@@ -1,0 +1,76 @@
+#navbar ul {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  background-color: #0000e1;
+  width: 100%;
+}
+
+#navbar ul li {
+  padding: 20px;
+  text-decoration: none;
+  background-color: #0000e1;
+}
+
+#navbar ul li :hover {
+  background-color: black;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+#welcome-section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20em;
+  background-color: black;
+  height: auto;
+}
+
+#welcome-section h1 {
+  color: white;
+}
+
+#welcome-section h3 {
+  color: blue;
+}
+
+#projects {
+  background-color: darkslateblue;
+}
+
+#projects h1 {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: underline;
+  color: white;
+  padding: 10px;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */
